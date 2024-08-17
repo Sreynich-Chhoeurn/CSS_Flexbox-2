@@ -1,0 +1,76 @@
+body{
+    background-color: pink;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
+header {
+    margin: 10px;
+    background-color: rgb(150, 219, 219);
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    flex: 3;
+    background-color: rgb(235, 104, 115);
+    margin: 10px;
+}
+
+.aside {
+    flex: 1;
+    background-color: rgb(36, 165, 165);
+    width: 100px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+.card{
+    height: 250px;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+footer {
+    background-color: rgb(150, 219, 219);
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 34px;
+    margin-bottom: 20px;
+    width: 26%;
+    height: 40vh;
+    background-color: rgb(198, 202, 201);
+}
+
+.main {
+    flex-direction: row;
+    display: flex;
+    gap: 100px;
+    background-color: palevioletred;
+}
